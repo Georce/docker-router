@@ -2,6 +2,8 @@ FROM debian:jessie
 
 MAINTAINER 谁改谁去死！
 
+RUN apt-get update
+
 RUN apt-get install -y quagga
 
 COPY daemons /etc/quagga/daemons
