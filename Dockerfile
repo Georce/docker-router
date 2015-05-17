@@ -14,6 +14,8 @@ COPY ripd.conf /etc/quagga/ripd.conf
 
 COPY run.sh /opt/run.sh
 
+RUN cp /usr/share/doc/quagga/examples/zebra.conf.sample /etc/quagga/zebra.conf
+
 RUN chmod 755 /opt/run.sh
 
 RUN chown quagga:quagga /etc/quagga/*.conf
