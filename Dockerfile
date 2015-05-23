@@ -25,7 +25,7 @@ FROM index.alauda.cn/dockerlibrary/debian:6
 
 MAINTAINER 谁改谁去死！
 
-RUN sed -i s@httpredir.debian.org@mirrors.aliyun.com@g /etc/apt/source.list
+RUN sed -i s@httpredir.debian.org@mirrors.aliyun.com@g /etc/apt/sources.list
 
 RUN apt-get update
 
