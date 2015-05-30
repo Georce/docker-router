@@ -21,7 +21,7 @@
 # *
 # * ━━━━━━感觉萌萌哒━━━━━━
 # */
-FROM index.alauda.cn/dockerlibrary/debian:6
+FROM index.alauda.cn/library/debian:6
 
 MAINTAINER 谁改谁去死！
 
